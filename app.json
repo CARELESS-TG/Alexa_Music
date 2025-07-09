@@ -1,0 +1,72 @@
+{
+  "name": "Alexa Music",
+  "description": "A Pro-level Telegram Music Player Bot with Pyrogram and Py-Tgcalls — Powered by Alexa.",
+  "logo": "https://telegra.ph/file/b61227af05544deb76a34.jpg",
+  "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "Alexa",
+    "MusicBot",
+    "pyrogram"
+  ],
+  "env": {
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Get your bot token from BotFather",
+      "value": "",
+      "required": true
+    },
+    "MONGO_DB_URI": {
+      "description": "Mongo URI from https://cloud.mongodb.com",
+      "value": "",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Your Telegram user ID (integer)",
+      "value": "",
+      "required": true
+    },
+    "STRING_SESSION": {
+      "description": "Generate Pyrogram v2 String from @StringGen_Bot",
+      "value": "",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "Optional: Your Heroku API key",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Optional: Your Heroku App Name",
+      "value": "",
+      "required": false
+    },
+    "LOGGER_ID": {
+      "description": "Log Group ID (must be a Telegram group ID with -100)",
+      "value": "",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ],
+  "stack": "container"
+}
