@@ -1,0 +1,22 @@
+# Core Frameworks
+pyrogram==2.0.106
+tgcrypto==1.2.5
+py-tgcalls==0.9.7
+
+# Audio Processing
+pydub
+ffmpeg-python
+
+# Database
+motor
+pymongo
+
+# Environment & Utilities
+python-dotenv
+aiohttp
+requests
+psutil
+
+# Optional Enhancements
+gtts           # For text-to-speech
+pyfiglet       # ASCII banners (for /start, etc.)
