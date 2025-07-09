@@ -4,9 +4,6 @@ Welcome to Alexa Music — a powerful Telegram Music Bot built with Python, Pyro
 
 ---
 
-By contributing, you agree to follow our [Code of Conduct](CODE_OF_CONDUCT.md).  
----
-
 ## 🛠️ How to Contribute | 
 
 ### 🔹 English:
